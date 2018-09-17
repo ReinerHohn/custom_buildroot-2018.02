@@ -1613,6 +1613,10 @@ menu "Mail"
 	source "package/sylpheed/Config.in"
 endmenu
 
+menu "Michael"
+	source "package/michael/Config.in"
+endmenu
+
 menu "Miscellaneous"
 	source "package/aespipe/Config.in"
 	source "package/bc/Config.in"

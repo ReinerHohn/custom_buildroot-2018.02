@@ -1,0 +1,8 @@
+config BR2_PACKAGE_GWENHYWFAR
+	bool "gwenhywfar"
+	depends on BR2_PACKAGE_GNUTLS
+	depends on BR2_PACKAGE_LIBGCRYPT
+	help
+	  Package needed for aqbanking
+
+	  https://www.aquamaniac.de

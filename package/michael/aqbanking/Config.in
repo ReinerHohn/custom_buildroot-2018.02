@@ -1,0 +1,8 @@
+config BR2_PACKAGE_AQBANKING
+        bool "aqbanking"
+	depends on BR2_PACKAGE_GWENHYWFAR
+        help
+          Package needed for aqbanking
+
+          https://www.aquamaniac.de
+
