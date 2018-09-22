@@ -1,8 +1,11 @@
 config BR2_PACKAGE_AQBANKING
         bool "aqbanking"
 	depends on BR2_PACKAGE_GWENHYWFAR
-        help
-          Package needed for aqbanking
+	depends on BR2_PACKAGE_KTOBLZCHECK
+	depends on BR2_PACKAGE_XMLSEC1
+      
+	help
+          Library for banking
 
           https://www.aquamaniac.de
 

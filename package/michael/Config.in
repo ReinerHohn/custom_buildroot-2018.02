@@ -1,2 +1,4 @@
 source "package/michael/gwenhywfar/Config.in"
+source "package/michael/ktoblzcheck/Config.in"
+source "package/michael/xmlsec1/Config.in"
 source "package/michael/aqbanking/Config.in"
