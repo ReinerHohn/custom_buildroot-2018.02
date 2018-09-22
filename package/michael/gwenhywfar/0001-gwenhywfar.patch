@@ -1,0 +1,13 @@
+--- a/gwenhywfar-config.in.in	2018-09-22 14:40:08.430892421 +0200
++++ b/gwenhywfar-config.in.in	2018-09-22 14:41:15.576330958 +0200
+@@ -1,8 +1,8 @@
+ # $Id$
+ # Author of this file: Martin Preuss<martin@libchipcard.de>
+ 
+-prefix=@prefix@
+-exec_prefix=@exec_prefix@
++prefix=$(realpath $(dirname "$0")/..)
++exec_prefix=${prefix}
+ includedir=@includedir@
+ bindir=@bindir@
+ 

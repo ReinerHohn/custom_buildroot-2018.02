@@ -1,0 +1,15 @@
+--- ../rpi3b-banking-build/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/bin/gwenhywfar-config	2018-09-22 11:28:49.539814390 +0200
++++ ../rpi3b-banking-build/host/arm-buildroot-linux-uclibcgnueabihf/sysroot/usr/bin/gwenhywfar-config.orig	2018-09-22 12:17:01.304869098 +0200
+@@ -3,10 +3,8 @@
+ # $Id$
+ # Author of this file: Martin Preuss<martin@libchipcard.de>
+ 
+-#prefix=/usr
+-prefix=$(realpath $(dirname "$0")/..)
+-exec_prefix=${prefix}
+-#exec_prefix=/usr
++prefix=/usr
++exec_prefix=/usr
+ 
+ includedir=${prefix}/include
+ bindir=${exec_prefix}/bin

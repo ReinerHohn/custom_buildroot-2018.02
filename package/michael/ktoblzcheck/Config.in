@@ -1,0 +1,8 @@
+config BR2_PACKAGE_KTOBLZCHECK
+        bool "ktoblzcheck"
+	depends on BR2_PACKAGE_GWENHYWFAR
+        help
+          Package needed for aqbanking
+
+          https://sourceforge.net/projects/ktoblzcheck
+

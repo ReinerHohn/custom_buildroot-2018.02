@@ -1,0 +1,9 @@
+config BR2_PACKAGE_XMLSEC1
+	bool "xmlsec"
+	depends on BR2_PACKAGE_LIBXML2
+	depends on BR2_PACKAGE_LIBTOOL
+	depends on BR2_PACKAGE_LIBXSLT
+	help
+	  XML Security Library is a C library based on LibXML2. 
+
+	  https://www.aleksey.com
