@@ -11,9 +11,7 @@ GWENHYWFAR_INSTALL_STAGING = YES
 # GWENHYWFAR_INSTALL_TARGET = NO
 
 GWENHYWFAR_MAKE_OPTS= prefix=$(STAGING_DIR) exec_prefix=$(STAGING_DIR) bindir=$(STAGING_DIR)/usr/bin libdir=$(STAGING_DIR)/usr/lib
-#rrGWENHYWFAR_INSTALL_STAGING_OPTS = DESTDIR=$(STAGING_DIR)/ install 
 GWENHYWFAR_CONF_OPTS = --with-plugin-searchdir=/usr/lib/gwenhywfar/plugins --disable-binreloc --with-openssl-includes=$(STAGING_DIR)/usr --with-guis='' #--prefix=$(STAGING_DIR)/usr
-#GWENHYWFAR_CONF_OPTS = --host=$(GNU_TARGET_NAME) --disable-binreloc --with-openssl-includes=$(STAGING_DIR)/usr --with-guis='' --prefix=/usr #--prefix=$(STAGING_DIR)/usr --exec_prefix=$(STAGING_DIR)/usr #--bindir=$(STAGING_DIR)/usr/bin --libdir=$(STAGING_DIR)/usr/lib  
 GWENHYWFAR_DEPENDENCIES = gnutls libgcrypt
 
 $(eval $(autotools-package))
