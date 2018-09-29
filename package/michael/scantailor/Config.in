@@ -1,0 +1,8 @@
+config BR2_PACKAGE_SCANTAILOR
+        bool "scantailor"
+      
+	help
+          Scan Tailor is an interactive post-processing tool for scanned pages.
+
+          http://scantailor.org/
+
